@@ -68,7 +68,7 @@ function loop() {
     context.fillStyle = 'black';
     context.fillRect(apple.x, apple.y, grid - 1, grid - 1);
 
-    context.fillStyle = 'blue';
+    context.fillStyle = 'rgba(0, 38, 175, 0.8)';
     snake.cells.forEach(function (cell, index) {
 
         context.fillRect(cell.x, cell.y, grid - 1, grid - 1);
