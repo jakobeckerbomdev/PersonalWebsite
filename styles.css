@@ -115,6 +115,6 @@ button:active {
     white-space: nowrap;
     margin: 0 auto;
     animation:
-        typing 5s steps(50, end),
+        typing 2s steps(50, end),
         blink-caret .5s step-end infinite;
 }
