@@ -34,16 +34,6 @@ body {
     animation: fadein 2s;
 }
 
-@keyframes typing {
-    from {
-        width: 0
-    }
-
-    to {
-        width: 100%
-    }
-}
-
 @keyframes fadein {
     from {
         opacity: 0;
@@ -108,16 +98,4 @@ button:hover {
 
 button:active {
     transform: translateY(-1px);
-}
-
-.typewriter h1,
-h3,
-h4 {
-    color: #000;
-    overflow: hidden;
-    white-space: nowrap;
-    margin: 0 auto;
-    animation:
-        typing 1s steps(50, end),
-        blink-caret .5s step-end infinite;
 }
