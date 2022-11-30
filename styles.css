@@ -11,6 +11,10 @@ h3 {
     padding-top: 30px;
 }
 
+h4 {
+    padding-top: 15px;
+}
+
 a {
     text-decoration: none;
     font-weight: bold;
